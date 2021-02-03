@@ -58,7 +58,7 @@ void loop() {
   //Serial.println(strID);
   delay(500);
 
-  if (strID.indexOf("C6:05:DA:2B") >= 0) {  //put your own tap card key;
+  if (strID.indexOf("C6:05:DA:2B") >= 0) {  //put your own tap card key;   put your own rfid code of the tag in " C6:05:DA:2B "
    
     
     Serial.println("**Authorised acces**");
